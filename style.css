@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url(bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+}
+
+
+.kapsayici{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* font-family: 'Poppins', sans-serif;
+
+başlıklar-400/600*/
+
+/* font-family: 'Open Sans', sans-serif;
+
+body-400*/
+
+.deneme {
+    display: flex;
+    
+}
+
+.container {
+  display: flex;
+  width:100%;
+  max-width: 1280px;
+  flex-direction: column;
+}
+
+.huddle {
+    width: 200px;
+    margin-bottom: 5rem;
+}
+
+
+
+.right-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  gap: 1.5rem;
+}
+
+
+.right-bar p {
+    color: #d7d5d5;
+}
+
+.right-bar h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.right-bar p,
+button {
+  font-family: "Open Sans", sans-serif;
+  
+}
+
+
+button {
+  width: 11rem;
+  height: 3.5rem;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+  color: hsl(300, 69%, 51%);
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+  margin-right: 5rem;
+  align-self: flex-end;
+}
+
+
+.right-bar .left-bar {
+  flex-basis: 50%;
+}
+
+.icons .icon {
+  width: 36px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
